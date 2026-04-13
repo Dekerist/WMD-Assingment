@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Home</title>
+  <link rel="stylesheet"href="style.css">
+
+</head> 
+
+<body> 
+  <header class="main-header">
+    <div class="logo-area">
+     <div class="logo-placeholder">Logo</div>
+   <div class="club-title">
+   <h1>DITSWAMETSING FC</h1>
+ <p>2nd in Bots Pro League</p>
+   </div>
+ </div>
+<nav class="nav links">
+
+            <a href="Overview.html">Overview</a> | 
+
+            <a href="Home.html">Home</a> | 
+
+            <a href="Schedule&Rankings.html">Schedule&Rankings</a> |
+            <a href="Team.html">Team</a> |
+            <a href="Shop.html">Shop</a> |
+            <a href="Contact.html">Contact</a> |
+
+        </nav> 
+
+    </header> 
+
+    <main class="home-hub">
+        <div class="container">
+      <section class="club-history">
+      <h2>Welcome to Ditswametsing FC</h2>
+
+
+   <div class="logo asset">Logo Asset</div>
+ <div class="about-block">
+   <p>Ditswametsing FC is a club based in Botswana in the village of Moshupa
+    Founded:April 7,2024
+    Stadium:Fish Arena
+    Capacity:2000
+    President:Deker Motlogelwa
+    Manager:Kgosi Gorata
+    Founders:Sir Motlogelwa
+    Location:Moshupa,Maunatlala ward,Botswana.</p>
+        </div>
+     </section>
+
+   </main> 
+
+  <footer> 
+
+        <p>&copy; 2026 DITSWAMETSING FC</p> 
+        <p>&copy;Home hub</p>
+
+    </footer> 
+
+</body> 
+
+</html> 
