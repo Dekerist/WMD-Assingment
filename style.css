@@ -39,7 +39,9 @@ body { background-color: #f4f4f4; color: #333; }
     gap:20px
 }
 .logo-asset { 
-    width: 150px; height: 100px; border: 1px dashed #bbb; 
+    width: fit-content; 
+    min-width:150px
+    height: auto; border: 1px dashed #bbb; 
     margin: 20px 0; display: flex; align-items: center; justify-content: center;
 }
 
