@@ -34,7 +34,7 @@ body { background-color: #f4f4f4; color: #333; }
 
 /* Elements within Sections */
 .club-header-container{
-    display:flex;
+    display:flex !important;
     align-items:flex-start;
     gap:20px
 }
