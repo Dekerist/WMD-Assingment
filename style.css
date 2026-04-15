@@ -24,6 +24,7 @@ body { background-color: #f4f4f4; color: #333; }
 /* Body Layout */
 .container {
     display: flex;
+    flex-direction:column;
     max-width: 1200px;
     margin: 30px auto;
     gap: 20px;
@@ -40,7 +41,7 @@ body { background-color: #f4f4f4; color: #333; }
 }
 .logo-asset { 
     width: fit-content; 
-    min-width:150px
+    min-width:150px;
     height: auto; border: 1px dashed #bbb; 
     margin: 20px 0; display: flex; align-items: center; justify-content: center;
 }
