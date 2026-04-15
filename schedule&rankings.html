@@ -32,7 +32,7 @@
 
             <a href="home.html">home</a> | 
 
-            <a href="index.html">schedule&rankings</a> |
+            <a href="schedule&rankings.html">schedule&rankings</a> |
             <a href="index.html">team</a> |
             <a href="index.html">shop</a> |
             <a href="index.html">contact</a> |
@@ -41,39 +41,49 @@
 
     </header> 
 
-    <main class="home-hub">
-        <div class="container">
-      <div style="background: #eee;padding:5px 20px;border-bottom:2px solid #000;">
-          <strong>BODY. STANDINGS</strong></div>
-            <section class="container my-4">
-                <p>S1 .Pro League table</p>
-                <table style="width:100%;border-collapse;border:1px solid#ccc;">
-                    <tr style="background:#f9f9f9;">
-                        <th style="border:1px solid #ccc;padding:8px;">Row 1</th>
-                        <td style="border:1px solid #ccc;padding:8px;"></td>
-                    </tr>
-                </table>
-            </section>
-        <div style="background:#eee;padding:5px 20px;border-bottom:2px solid #000;">
-            <strong>BODY . FIXTURES&CUP</strong>
-             <p>Fixture/result</p>
-        </div>
-        <section style="display:flex;justify-content:space-between;border:1px solid #ccc;">
-            <div style="flex:1;border-right:1px solid #ccc;padding: 15px;">
-                <strong>League . date/time</strong>
-                <p>Fixture/result</p>
-            </div>
-          <div style="fle:1;border-right:1px solid #ccc;padding:15px;">
-              <strong>League . date/time</strong>
-          <p>Fixture/result</p>
-          </div>
-         <div style="flex:1;padding:15px;">
-             <strong>CL cup . date/time</strong>
-              <p>Cup row</p>
-         </div>
-        </section>
+   <main class="container mt-4">
 
-   </main> 
+    <div class="standings-section mb-5">
+        <h3 style="font-size: 1.1rem; margin-bottom: 10px;">S1 • Pro league table</h3>
+        
+        <div class="body-band" style="background: #eee; padding: 5px 20px; border-bottom: 2px solid #000;">
+            <strong>BODY • STANDINGS</strong>
+        </div>
+        <div class="table-responsive" style="border: 1px solid #ccc; padding: 40px; min-height: 200px;">
+            <table class="table table-bordered">
+                <thead>
+                    <tr><th>Pos</th><th>Team</th><th>Pts</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>JSC FC</td><td>25</td></tr>
+                    <tr><td>2</td><td>Ditswametsing FC</td><td>23</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="fixtures-section">
+        <div class="body-band" style="background: #eee; padding: 5px 20px; border-bottom: 2px solid #000;">
+            <strong>BODY • FIXTURES & CUP</strong>
+        </div>
+        
+        <div class="row g-0" style="border: 1px solid #ccc;">
+            <div class="col-md-4 border-end p-3">
+                <strong>League • date/time</strong>
+                <p>Fixture / result</p>
+            </div>
+            <div class="col-md-4 border-end p-3">
+                <strong>League • date/time</strong>
+                <p>Fixture / result</p>
+            </div>
+            <div class="col-md-4 p-3">
+                <strong>CL cup • date/time</strong>
+                <p>Cup row</p>
+            </div>
+        </div>
+    </div>
+
+</main>
 
   <footer> 
 
