@@ -25,6 +25,8 @@ body { background-color: #f4f4f4; color: #333; }
     margin: 30px auto;
     padding: 0 20px;
 }
+.club-story { flex: 2; background: white; padding: 20px; border: 1px solid #ccc; }
+.match-center { flex: 1; background: white; padding: 20px; border: 1px solid #ccc; }
 
 .team-grid {
     display: flex;
