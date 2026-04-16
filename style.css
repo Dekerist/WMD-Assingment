@@ -31,20 +31,19 @@ body { background-color: #f4f4f4; color: #333; }
     align-items: flex-start;
     gap: 30px;
     margin-top: 20px;
-    background: white;
-    padding: 20px;
-    border: 1px solid #eee;
+
 }
 
 .home-logo-box img {
-    width: 250px;
+    width: 270px;
     height: auto;
     border: 1px solid #ddd;
 }
 
 .home-details ul {
-    list-style: none;
-    padding-top: 10px;
+    list-style: disc;
+    padding-left: 20px;
+    line-height:1.6;
 }
 
 .home-details li {
