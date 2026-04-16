@@ -47,14 +47,15 @@ body { background-color: #f4f4f4; color: #333; }
     gap: 15px;
 }
 .photo-placeholder {
-    width: 100px; 
-    height: 100px;
+    width: 80px; 
+    height: 80px;
     flex-shrink: 0;
     background-color: #f0f0f0;
     border: 1px dashed #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:0.7rem;
     color: #888;
 }
 
