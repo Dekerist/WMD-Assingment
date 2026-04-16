@@ -1,8 +1,7 @@
-/* General Reset */
+
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
 body { background-color: #f4f4f4; color: #333; }
 
-/* Header Styling */
 .main-header {
     background: white;
     padding: 20px;
@@ -27,32 +26,50 @@ body { background-color: #f4f4f4; color: #333; }
     margin: 30px auto;
     gap:0 20px;
 }
+
 .team-grid {
-    display: flex; 
-    flex-direction: row; 
-    gap: 30px; 
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
     align-items: flex-start;
 }
-.left-column {
-    flex: 2;
+
+.left-column { flex: 2; } /
+.right-column { flex: 1; } 
+
+.wireframe-card {
+    border: 1px dashed #999;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
 }
 
-.right-column {
-    flex: 1;
+.photo-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    margin-bottom: 10px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: block; 
+.card-text strong {
+    font-size: 1.1rem;
+    display: block;
+}
+
+.card-text p {
+    font-size: 0.85rem;
+    color: #666;
 }
 }
 
 .club-story { flex: 2; background: white; padding: 20px; border: 1px solid #ccc; }
 .match-center { flex: 1; background: white; padding: 20px; border: 1px solid #ccc; }
 
-/* Elements within Sections */
 .club-header-container{
     display:flex;
     align-items:flex-start;
