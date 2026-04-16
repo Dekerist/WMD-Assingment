@@ -23,7 +23,6 @@ body { background-color: #f4f4f4; color: #333; }
 
 /* Body Layout */
 .container {
-    display: flex;
     max-width: 1200px;
     margin: 30px auto;
     gap: 20px;
