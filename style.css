@@ -54,6 +54,8 @@ body { background-color: #f4f4f4; color: #333; }
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    align-items:stretch;
+    grid-auto-rows:1fr;
     
 }
 
