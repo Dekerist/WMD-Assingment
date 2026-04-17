@@ -64,16 +64,16 @@ body { background-color: #f4f4f4; color: #333; }
     display: flex;
     align-items: flex-start;
     border: 1px dashed #999;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
     background-color: #fff;
     gap: 15px;
     max-height: auto;
     overflow: visible; 
 }
 .photo-placeholder {
-    width: 80px; 
-    height: 80px;
+    width: 100px; 
+    height: 100px;
     flex-shrink: 0;
     background-color: #f0f0f0;
     border: 1px dashed #ccc;
