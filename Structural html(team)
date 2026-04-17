@@ -13,7 +13,7 @@
     <nav>
         <a href="index.html">Overview</a> |
         <a href="home.html">Home</a> |
-        <a href="schedule.html">Schedule & Rankings</a> |
+        <a href="schedule&rankings.html">Schedule & Rankings</a> |
         <a href="team.html">Team</a> |
        <a href="shop.html">Shop</a> |
         <a href="contact.html">Contact</a>
@@ -24,22 +24,22 @@
     <h2>Team Players & Staff</h2>
 
     <h3>Player 1</h3>
-    <p>[Player details will be displayed here]</p>
+    <p>Player details will be displayed here</p>
 
     <hr>
 
     <h3>Player 2</h3>
-    <p>[Player details will be displayed here]</p>
+    <p>Player details will be displayed here</p>
 
     <hr>
 
     <h3>Player 3</h3>
-    <p>[Player details will be displayed here]</p>
+    <p>Player details will be displayed here</p>
 
     <hr>
 
     <h3>Transfers</h3>
-    <p>[Transfer information will be displayed here]</p>
+    <p>Transfer information will be displayed here</p>
 
     <hr>
 
