@@ -68,8 +68,8 @@ body { background-color: #f4f4f4; color: #333; }
     margin-bottom: 15px;
     background-color: #fff;
     gap: 15px;
-    max-height: 150px;
-    overflow: hidden; 
+    max-height: auto;
+    overflow: visible; 
 }
 .photo-placeholder {
     width: 80px; 
