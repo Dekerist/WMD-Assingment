@@ -61,6 +61,8 @@ body { background-color: #f4f4f4; color: #333; }
    border: 1px dashed #999;
     padding:15px;
     background: #fff;
+    display:flex;
+    gap:15px
     min-height:250px;
 }
 .photo-placeholder {
