@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule & Rankings</title>
+</head>
 
+<body>
+
+    <h1>DITSWAMETSING FC</h1>
+
+    <nav>
+        <a href="index.html">Overview</a> |
+        <a href="home.html">Home</a> |
+        <a href="schedule.html">Schedule & Rankings</a> |
+        <a href="team.html">Team</a> |
+        <a href="shop.html">Shop</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <h2>League Standings</h2>
+
+    <table border="1">
+        <tr>
+            <th>Pos</th>
+            <th>Team</th>
+            <th>P</th>
+            <th>W</th>
+            <th>Pts</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Juventus SC FC</td>
+            <td>11</td>
+            <td>9</td>
+            <td>28</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Ditswametsing FC</td>
+            <td>10</td>
+            <td>9</td>
+            <td>27</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Arsenal</td>
+            <td>10</td>
+            <td>8</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Manchester United</td>
+            <td>11</td>
+            <td>7</td>
+            <td>21</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Sporting CP</td>
+            <td>10</td>
+            <td>7</td>
+            <td>21</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>Zama Zama</td>
+            <td>11</td>
+            <td>7</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Fixtures & Results</h2>
+
+    <h3>League</h3>
+    <p>DFC vs ZAM - 3 : 0</p>
+
+    <h3>FA Cup</h3>
+    <p>DFC vs ZFC - Pending</p>
+
+    <h3>CL Cup</h3>
+    <p>KCFC vs DFC - 1 : 2</p>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Ditswametsing FC</p>
+    </footer>
+
+</body>
+</html>
