@@ -57,37 +57,44 @@ body { background-color: #f4f4f4; color: #333; }
     align-items: flex-start;
 }
 
-.left-column { flex: 2; } 
+.left-column { flex: 1; } 
 .right-column { flex: 1; } 
 
 .wireframe-card {
     display: flex;
-    align-items: flex-start;
+    flex-direction:column;
     border: 1px dashed #999;
     padding: 15px;
     margin-bottom: 20px;
     background-color: #fff;
-    gap: 15px;
-    max-height: auto;
-    overflow: visible; 
+    gap: 10px;
+    width:100%;
+    min-height:380px;
+    height:auto;
+    overflow:visible
 }
 .photo-placeholder {
     width: 100px; 
-    height: 100px;
+    height: 150px;
     flex-shrink: 0;
     background-color: #f0f0f0;
     border: 1px dashed #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #888;
 }
 
 .card-text {
-    display: flex;
+    display: block;
     flex-direction: column;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+}
+.card-text ul {
+    list-style:disc;
+    padding-left:20px;
+    margin-top:10px;
 }
 
 .card-text strong, .card-text p:first-of-type {
