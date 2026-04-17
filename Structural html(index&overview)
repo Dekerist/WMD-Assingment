@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditswametsing FC</title>
+</head>
 
+<body>
+
+    <h1>DITSWAMETSING FC</h1>
+
+    <p>Official Football Club Website</p>
+
+    <nav>
+        <a href="index.html">Overview</a> |
+        <a href="home.html">Home</a> |
+        <a href="schedule.html">Schedule & Rankings</a> |
+        <a href="team.html">Team</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h2>Ditswametsing FC Logo</h2>
+
+    <p>Ditswametsing FC Logo</p>
+
+    <h3>Recent Result</h3>
+    <p>DFC vs ZAM</p>
+    <p><strong>3 : 0</strong></p>
+
+    <h3>Next Match</h3>
+    <p>Wed, 15</p>
+    <p><strong>JSC vs DFC</strong></p>
+
+    <hr>
+
+    <p>&copy; 2026 Ditswametsing FC</p>
+
+</body>
+</html>
