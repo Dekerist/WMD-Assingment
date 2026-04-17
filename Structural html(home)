@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditswametsing FC</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>DITSWAMETSING FC</h1>
+        <p>2nd in Bots Pro League</p>
+
+        <nav>
+            <a href="index.html">Overview</a> |
+            <a href="home.html">Home</a> |
+            <a href="schedule-rankings.html">Schedule & Rankings</a> |
+            <a href="team.html">Team</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Welcome to Ditswametsing FC</h2>
+
+            <p><strong>Ditswametsing FC Logo</strong></p>
+
+            <p>Official website of Ditswametsing Football Club.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ditswametsing FC</p>
+    </footer>
+
+</body>
+</html>
