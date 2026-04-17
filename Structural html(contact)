@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Ditswametsing FC</title>
+</head>
 
+<body>
+
+    <h1>Ditswametsing FC</h1>
+
+    <nav>
+        <a href="index.html">Overview</a> |
+        <a href="home.html">Home</a> |
+        <a href="schedule.html">Schedule & Rankings</a> |
+        <a href="team.html">Team</a> |
+        <a href="shop.html">Shop</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <h2>Contact Details</h2>
+    <p>Email: info@ditswametsingfc.com</p>
+
+    <h3>Feedback</h3>
+    <p>......................</p>
+
+    <h3>Map / Location</h3>
+    <p>Moshupa,Botswana</p>
+
+    <h3>Social Media</h3>
+    <p> X </p>
+
+    <h3>Message Us</h3>
+    <p>Name: </p>
+    <p>Message:</p>
+    <p>send buttons</p>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Ditswametsing FC</p>
+    </footer>
+
+</body>
+</html>
