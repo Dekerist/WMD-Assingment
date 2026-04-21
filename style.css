@@ -60,7 +60,7 @@ body { background-color: #f4f4f4; color: #333; }
 }
 .product-grid {
     display:grid;
-    grid-termplate-columns:1fr 1fr;
+    grid-template-columns:1fr 1fr;
     gap:20px;
 }
 .product-card {
