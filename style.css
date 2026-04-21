@@ -93,7 +93,7 @@ body { background-color: #f4f4f4; color: #333; }
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items:stretch;
-    grid-auto-rows:1fr;
+    grid-auto-rows:minmax(250px,auto);
     
 }
 
@@ -102,7 +102,7 @@ body { background-color: #f4f4f4; color: #333; }
     padding:15px;
     background: #fff;
     display:flex;
-    gap:15px
+    gap:15;
     min-height:250px;
 }
 .photo-placeholder {
