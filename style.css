@@ -94,22 +94,16 @@ body { background-color: #f4f4f4; color: #333; }
     justify-content:space-between;
     gap: 20px;
 }
-.shop-page .wireframe-card {
+.shop-page .product-card {
     width:48%;
-    border:1px dashed #999;
-    padding:10px;
-    background:#fff;
-    display:flex;
-    gap:10px;
-    min-height:140px;
 }
-.shop-page .wireframe-card:nth-child(odd)
+.shop-page .product-card:nth-child(odd)
 {
-    align-self:flex-start
+    margin-right:auto;
 }
-.shop-page .wireframe-card:nth-child(even)
+.shop-page .product-card:nth-child(even)
 {
- align-self:flex-end;
+ margin-left:auto;
 }
 .shop-page .photo-placeholder {
     width:70px;
