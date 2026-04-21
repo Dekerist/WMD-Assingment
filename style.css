@@ -50,6 +50,44 @@ body { background-color: #f4f4f4; color: #333; }
     margin-bottom: 8px;
     font-size: 1rem;
 }
+.shop {
+    padding:20px;
+}
+.filters {
+    margin-bottom:20px;
+    background:#ddd;
+    padding:10px;
+}
+.product-grid {
+    display:grid;
+    grid-termplate-columns:1fr 1fr;
+    gap:20px;
+}
+.product-card {
+    background:white;
+    padding:15px;
+    border:1px solid #ccc;
+}
+.product-image {
+    height:150px;
+    background:#e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.price {
+    margin-top:10px;
+    font-weight:bold;
+}
+.footer {
+    display: flex;
+    justify-content:space-around;
+    background:#222;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+}
+    
 .team-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -79,6 +117,7 @@ body { background-color: #f4f4f4; color: #333; }
     font-size: 0.8rem;
     color: #888;
 }
+
 
 .card-text {
     display: flex;
