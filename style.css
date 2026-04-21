@@ -60,8 +60,8 @@ body { background-color: #f4f4f4; color: #333; }
 }
 .product-grid {
     display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:20px;
+    grid-template-columns:repeat(3, 1fr);
+    gap:15px;
 }
 .product-card {
     background:white;
