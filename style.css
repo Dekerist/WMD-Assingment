@@ -87,29 +87,6 @@ body { background-color: #f4f4f4; color: #333; }
     padding:20px;
     margin-top:30px;
 }
-    
-.shop-page .shop-grid {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    gap: 20px;
-}
-.shop-page .product-card {
-    width:48%;
-}
-.shop-page .product-card:nth-child(odd)
-{
-    margin-right:auto;
-}
-.shop-page .product-card:nth-child(even)
-{
- margin-left:auto;
-}
-.shop-page .photo-placeholder {
-    width:70px;
-    height:70px;
-    flex-shrink:0
-}
 
 .wireframe-card {
    border: 1px dashed #999;
