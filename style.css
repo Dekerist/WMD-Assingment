@@ -88,13 +88,13 @@ body { background-color: #f4f4f4; color: #333; }
     margin-top:30px;
 }
     
-.team-page .team-grid {
+.shop-page .team-grid {
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
     gap: 20px;
 }
-.team-page .wireframe-card {
+.shop-page .wireframe-card {
     width:48%;
     border:1px dashed #999;
     padding:10px;
@@ -103,15 +103,15 @@ body { background-color: #f4f4f4; color: #333; }
     gap:10px;
     min-height:140px;
 }
-.team.page .wireframe-card:nth-child(odd)
+.shop-page .wireframe-card:nth-child(odd)
 {
     align-self:flex-start
 }
-.team-page .wireframe-card:nth-child(even)
+.shop-page .wireframe-card:nth-child(even)
 {
  align-self:flex-end;
 }
-.team-page .photo-placeholder {
+.shop-page .photo-placeholder {
     width:70px;
     height:70px;
     flex-shrink:0
