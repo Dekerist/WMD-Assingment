@@ -88,13 +88,33 @@ body { background-color: #f4f4f4; color: #333; }
     margin-top:30px;
 }
     
-.team-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items:stretch;
-    grid-auto-rows:minmax(250px,auto);
-    
+.team-page .team-grid {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap: 20px;
+}
+.team-page .wireframe-card {
+    width:48%;
+    border:1px dashed #999;
+    padding:10px;
+    background:#fff;
+    display:flex;
+    gap:10px;
+    min-height:140px;
+}
+.team.page .wireframe-card:nth-child(odd)
+{
+    align-self:flex-start
+}
+.team-page .wireframe-card:nth-child(even)
+{
+ align-self:flex-end;
+}
+.team-page .photo-placeholder {
+    width:70px;
+    height:70px;
+    flex-shrink:0
 }
 
 .wireframe-card {
