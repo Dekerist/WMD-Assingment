@@ -88,7 +88,7 @@ body { background-color: #f4f4f4; color: #333; }
     margin-top:30px;
 }
     
-.shop-page .team-grid {
+.shop-page .shop-grid {
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
