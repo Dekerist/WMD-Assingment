@@ -137,6 +137,9 @@ body { background-color: #f4f4f4; color: #333; }
 .icon:active {
     color:black;
 }
+.map-box {
+    min-height:150px;
+}
 .contact-form {
     display: flex;
     flex-direction: column;
