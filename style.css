@@ -125,6 +125,7 @@ body { background-color: #f4f4f4; color: #333; }
     align-items: center;
     justify-content: center;
     text-decoration:none;
+    color:black;
     font-size:19px;
 }
 .icon:hover {
