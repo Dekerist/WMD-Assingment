@@ -162,7 +162,7 @@ body { background-color: #f4f4f4; color: #333; }
 .contact-footer {
     margin-top: 40px;
 }
-.team-grid{
+.team-layout{
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:30px;
@@ -175,6 +175,12 @@ body { background-color: #f4f4f4; color: #333; }
     display:flex;
     gap:15;
     min-height:250px;
+}
+.left-side,
+.right-side {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
 }
 .photo-box {
   display: flex;
@@ -200,7 +206,11 @@ body { background-color: #f4f4f4; color: #333; }
     font-size: 0.8rem;
     color: #888;
 }
-
+.card {
+    border:1px dashed #999;
+    padding:15px;
+    background:#fff;
+}
 
 .card-text {
     display: flex;
