@@ -178,6 +178,18 @@ body { background-color: #f4f4f4; color: #333; }
     gap:15;
     min-height:250px;
 }
+.photo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.photo-box a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
 .photo-placeholder {
     width: 100px; 
     height: 100px;
