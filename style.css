@@ -24,12 +24,12 @@ body { background-color: #f4f4f4; color: #333; }
     max-width: 1200px;
     margin: 30px auto;
     padding: 0 20px;
+    background:blue;
 }
 .home-info-wrapper {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background:dark-blue;
     gap: 30px;
     margin-top: 20px;
 
@@ -63,6 +63,7 @@ body { background-color: #f4f4f4; color: #333; }
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     gap:15px;
+    background:blue
 }
 .product-card {
     background:white;
@@ -101,6 +102,7 @@ body { background-color: #f4f4f4; color: #333; }
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 20px;
+    background:blue;
 }
 .contact-left .box {
     border: 1px dashed #999;
