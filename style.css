@@ -180,6 +180,7 @@ body { background-color:grey; color: #333; }
 }
 
 .wireframe-card {
+    background:sliver;
    border: 1px dashed #999;
     padding:15px;
     background:grey;
