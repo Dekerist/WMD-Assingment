@@ -26,6 +26,9 @@ body { background-color:grey; color: #333; }
     margin: 30px auto;
     padding: 0 20px;
 }
+.standings-section {
+  background-color:silver; 
+}
 .home-info-wrapper {
     display: flex;
     flex-direction: row;
