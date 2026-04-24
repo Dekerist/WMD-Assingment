@@ -1,9 +1,9 @@
 /* General Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
-body { background-color:standard grey; color: #333; }
+body { background-color:grey; color: #333; }
 
 .main-header {
-    background: white;
+    background: grey;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,7 @@ body { background-color:standard grey; color: #333; }
 .nav-links a.active { color: black; border-bottom: 2px solid black; }
 
 .container {
+    backgroung:transparent;
     max-width: 1200px;
     margin: 30px auto;
     padding: 0 20px;
@@ -91,7 +92,7 @@ body { background-color:standard grey; color: #333; }
 .footer {
     display: flex;
     justify-content:space-around;
-    background:#222;
+    background:grey;
     color:white;
     padding:20px;
     margin-top:30px;
