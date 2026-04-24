@@ -24,9 +24,9 @@ body { background-color: #f4f4f4; color: #333; }
     max-width: 1200px;
     margin: 30px auto;
     padding: 0 20px;
-    background:blue;
 }
 .home-info-wrapper {
+     background:blue;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
