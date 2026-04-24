@@ -72,7 +72,7 @@ body { background-color: #f4f4f4; color: #333; }
 .product-image {
     width:100%;
     height:200px;
-    overflow:hidden;
+    overflow:visible;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -80,7 +80,7 @@ body { background-color: #f4f4f4; color: #333; }
 .product-image img {
     width:100%;
     height:100%;
-    object-fit:cover;
+    object-fit:visible;
     display:block;
 }
 .price {
