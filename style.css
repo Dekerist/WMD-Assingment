@@ -21,7 +21,7 @@ body { background-color: #f4f4f4; color: #333; }
 .nav-links a.active { color: black; border-bottom: 2px solid black; }
 
 .container {
-     background:blue;
+     background:grey;
     max-width: 1200px;
     margin: 30px auto;
     padding: 0 20px;
