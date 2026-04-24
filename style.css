@@ -29,7 +29,7 @@ body { background-color: #f4f4f4; color: #333; }
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background:dark blue;
+    background:dark-blue;
     gap: 30px;
     margin-top: 20px;
 
