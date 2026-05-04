@@ -88,6 +88,7 @@ body { background-color:grey; color: #333; }
     height:100%;
     object-fit:visible;
     display:block;
+     background:blue;
 }
 .price {
     margin-top:10px;
