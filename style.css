@@ -82,6 +82,7 @@ body { background-color:grey; color: #333; }
     align-items:center;
     justify-content:center;
     background:blue;
+    padding:10px;
 }
 .product-image img {
     width:100%;
