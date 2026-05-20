@@ -1,15 +1,22 @@
 /* Base */
-* { box-sizing: border-box; }
-body {
+* {
+    box-sizing: border-box;
+}
+
+html, body {
     margin: 0;
-    background-color: grey;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
     color: #333;
-    /* Keep grey, but modernize with subtle shading */
+    background-color: grey;
     background-image:
         radial-gradient(900px 600px at 15% 0%, rgba(255, 255, 255, 0.10), transparent 60%),
         radial-gradient(1000px 700px at 90% 10%, rgba(0, 0, 0, 0.10), transparent 55%),
         linear-gradient(180deg, rgba(255,255,255,0.06) 0%, rgba(0,0,0,0.06) 100%);
-    min-height: 100vh;
+    background-attachment: fixed;
 }
 
 /* Smooth hover animations */
@@ -40,9 +47,11 @@ body {
 .navbar .nav-link {
     position: relative;
 }
+
 .navbar .nav-link:hover {
     transform: translateY(-1px);
 }
+
 .navbar .nav-link::after {
     content: "";
     position: absolute;
@@ -56,6 +65,7 @@ body {
     transition: transform 200ms ease;
     border-radius: 2px;
 }
+
 .navbar .nav-link:hover::after,
 .navbar .nav-link.active::after {
     transform: scaleX(1);
@@ -66,20 +76,22 @@ body {
     background: #0b1220;
     color: #e5e7eb;
 }
+
 .site-footer .text-muted {
     color: rgba(229, 231, 235, 0.75) !important;
 }
 
 /* Home page stat cards */
 .stat-card {
-    min-width: 180px;
+    width: 100%;
+    max-width: 220px;
     padding: 14px 16px;
     border-radius: 14px;
     border: 1px solid rgba(0, 0, 0, 0.12);
-    background:
-        linear-gradient(180deg, rgba(255,255,255,0.18), rgba(0,0,0,0.10));
+    background: linear-gradient(180deg, rgba(255,255,255,0.18), rgba(0,0,0,0.10));
     backdrop-filter: blur(6px);
 }
+
 .stat-title {
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -87,7 +99,11 @@ body {
     color: #6b7280;
     margin-bottom: 4px;
 }
-.stat-line { color: #2f343b; }
+
+.stat-line {
+    color: #2f343b;
+}
+
 .stat-value {
     font-weight: 800;
     font-size: 1.1rem;
@@ -97,41 +113,50 @@ body {
 /* Shop images */
 .shop-img {
     height: 220px;
+    width: 100%;
     object-fit: cover;
 }
 
-/* Card holder (responsive) */
+/* Explore cards */
 .card-holder {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 16px;
 }
+
 @media (max-width: 991.98px) {
-    .card-holder { grid-template-columns: 1fr; }
+    .card-holder {
+        grid-template-columns: 1fr;
+    }
 }
 
 .feature-card {
-    border: 0 !important;
-    box-shadow: 0 10px 26px rgba(17, 24, 39, 0.10) !important;
+    border: 1px solid rgba(0, 0, 0, 0.14) !important;
     border-radius: 18px !important;
     overflow: hidden;
     color: #333;
     background:
         radial-gradient(700px 220px at 10% 0%, rgba(255,255,255,0.16), transparent 60%),
         linear-gradient(180deg, rgba(255,255,255,0.14), rgba(0,0,0,0.10));
-    border: 1px solid rgba(0, 0, 0, 0.14) !important;
+    box-shadow: 0 10px 26px rgba(17, 24, 39, 0.10) !important;
     backdrop-filter: blur(6px);
 }
+
 .feature-card .card-body {
     padding: 20px;
 }
+
 .feature-card:hover {
     color: inherit;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 20px;
+/* Responsive tweaks */
+@media (max-width: 767.98px) {
+    .stat-card {
+        max-width: 100%;
+    }
+
+    .shop-img {
+        height: 200px;
+    }
 }
-/* Legacy styles intentionally left out: Bootstrap handles layout now. */
