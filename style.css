@@ -1,4 +1,3 @@
-/* Base */
 * {
     box-sizing: border-box;
 }
@@ -19,7 +18,6 @@ body {
     background-attachment: fixed;
 }
 
-/* Smooth hover animations */
 .card,
 .stat-card,
 .btn,
@@ -71,7 +69,6 @@ body {
     transform: scaleX(1);
 }
 
-/* Footer */
 .site-footer {
     background: #0b1220;
     color: #e5e7eb;
@@ -81,7 +78,6 @@ body {
     color: rgba(229, 231, 235, 0.75) !important;
 }
 
-/* Home page stat cards */
 .stat-card {
     width: 100%;
     max-width: 220px;
@@ -110,14 +106,12 @@ body {
     margin-top: 4px;
 }
 
-/* Shop images */
 .shop-img {
     height: 220px;
     width: 100%;
     object-fit: cover;
 }
 
-/* Explore cards */
 .card-holder {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -150,7 +144,6 @@ body {
     color: inherit;
 }
 
-/* Responsive tweaks */
 @media (max-width: 767.98px) {
     .stat-card {
         max-width: 100%;
